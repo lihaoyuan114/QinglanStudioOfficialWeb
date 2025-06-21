@@ -16,7 +16,7 @@
             </ul>
         </div>
 
-        <audio src="music/filesite.mp3" autoplay="true" hidden="true" loop="true"></audio>
+        <audio src="music/filesite.mp3" autoplay hidden loop preload></audio>
     </head>
 
     <body class="bg">
@@ -96,5 +96,18 @@
 
             // 遍历每个 <section> 元素，并开始观察
             sections.forEach(section => observer.observe(section));
+
+            window.onload = function(){
+             setInterval("toggleSound()",100);
+            }
+
+            function toggleSound() {
+                var music = document.getElementById("vd");//获取ID  
+                    
+                if (music.paused) { //判读是否播放  
+                    music.paused=false;
+                    music.play(); //没有就播放 
+                }    
+            }
         </script>
 </html>
