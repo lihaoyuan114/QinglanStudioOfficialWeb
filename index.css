@@ -80,6 +80,41 @@
             background-size: cover;
             background-position: center center;
         }
+
+        .img12 {
+            background-image: url('image/bg/tlvd1.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img13 {
+            background-image: url('image/bg/tlvd2.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img14 {
+            background-image: url('image/bg/tlvd3.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img15 {
+            background-image: url('image/bg/tlvd4.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img16 {
+            background-image: url('image/bg/tlvd5.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
     }
     @media screen and (orientation: landscape) {/*横屏背景*/
         .topnav a {
@@ -158,6 +193,41 @@
 
         .img11 {
             background-image: url('image/bg/vrt_pc.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img12 {
+            background-image: url('image/bg/tlvd1.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img13 {
+            background-image: url('image/bg/tlvd2.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img14 {
+            background-image: url('image/bg/tlvd3.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img15 {
+            background-image: url('image/bg/tlvd4.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .img16 {
+            background-image: url('image/bg/tlvd5.png');
             background-attachment: fixed;
             background-size: cover;
             background-position: center center;
